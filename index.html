@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cajero automatico</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="contenedor-principal" class="text-center">
+  <h3>Hola,selecciona tu cuenta:</h3>
+  <button class="btn btn-primary my-2" onclick="ingresarContrasena(1)">Persona 1</button>
+  <button class="btn btn-primary my-2" onclick="ingresarContrasena(2)">Persona 2</button>
+  <button class="btn btn-primary my-2" onclick="ingresarContrasena(3)">Persona 3</button>
+</div>
+
+<div id="operaciones" class="operacion-btns text-center">
+  <button class="btn btn-secondary" onclick="consultarSaldo()">Consultar Saldo</button>
+  <button class="btn btn-secondary" onclick="ingresarMonto()">Ingresar Monto</button>
+  <button class="btn btn-secondary" onclick="retirarMonto()">Retirar Monto</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
